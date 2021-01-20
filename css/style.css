@@ -1,0 +1,62 @@
+/*Header*/
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.nav-li {
+	float: left;
+}
+.nav-ul::after {
+	content: '';
+	clear: left;
+	display: block;
+}
+.header-wraper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+body {
+	padding-top: 96px;
+}
+/*section1-chaticon*/
+.chat-icon {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.chat-icon .chat {
+	height: 80px;
+}
+/*section2*/
+.box-wraper {
+	width: ;
+	height: ;
+	position: relative;
+}
+
+.box {
+	width:;
+	height:;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	background-attachment: gray;
+	z-index: 2;
+
+}
+.box1 {
+	width: ;
+	height: ;
+	background-color: ;
+	right: ;
+	top: ;
+	position: absolute;
+}
